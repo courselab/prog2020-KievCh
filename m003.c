@@ -31,7 +31,7 @@ int is_prime (int a)
   }
   else
   {
-    for (i=a-1; i >= 2; i--)
+    for (i=2; i <= a/2; i++)
     {
       if (a % i == 0)
       {
