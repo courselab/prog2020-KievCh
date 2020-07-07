@@ -35,14 +35,14 @@ int is_prime (int a)
   }
   if (a == 1)
   {
-    return 0;
+    return (0);
   }
   else
   {
     if (b == 0)
-    return 1;
+    return (1);
     else
-    return 0;
+    return (0);
   }
 }
 
