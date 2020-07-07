@@ -27,16 +27,16 @@ int greatest (int a, int b, int c)
   if (a >= b) 
   {
     if (a >= c)
-    return("%d" , a);
+    return a;
     else
-    return("%d" , c);
+    return c;
   }
   else
   {
     if (b >= c)
-    return("%d" , b);
+    return b;
     else
-    return("%d" , c);
+    return c;
   }
 }
 
