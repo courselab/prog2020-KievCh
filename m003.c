@@ -40,9 +40,9 @@ int is_prime (int a)
   else
   {
     if (b == 0)
-    return 0;
-    else
     return 1;
+    else
+    return 0;
   }
 }
 
