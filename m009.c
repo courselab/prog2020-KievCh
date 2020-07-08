@@ -25,11 +25,11 @@
 
 void sort (int* vector, int n)
 {
-  void swap(int *xp, int *yp) 
+  void swap(int *a, int *b) 
   { 
-    int temp = *xp; 
-    *xp = *yp; 
-    *yp = temp;
+    int temp = *a; 
+    *a = *b; 
+    *b = temp;
   }
   int i, j, min;
   for (i = 0; i < n; i++)
