@@ -25,6 +25,23 @@
 
 void sort (int* vector, int n)
 {
+  void swap(int *a, int *b) 
+  { 
+    int temp = *a; 
+    *a = *b; 
+    *b = temp;
+  }
+  int i, j, min;
+  for (i = 0; i < n; i++)
+  {
+    min = i;
+    for (j = i+1; j < n; j++)
+    {
+     if (vector[j] < vector[min])
+     min = j; 
+    }
+    swap (&vector[min], &vector[i]);
+  }
 }
 
 #define USAGE "m009 <num1> <nun2> ... \n"
